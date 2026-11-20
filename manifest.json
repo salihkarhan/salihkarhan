@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "مائارىپ ۋە بالىلار پىسخىكىسى",
+  "version": "1.0.0",
+  "description": "ئىلغار مائارىپ، بالىلار پىسخىكىسى ۋە مەكتەپ باشقۇرۇشقا ئائىت ئىلمىي ماقالىلەر ۋە ماتېرىياللار سۇپىسى.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "مائارىپ ۋە بالىلار پىسخىكىسى مەركىزى"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
